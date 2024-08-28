@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+      <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .parent-cont{
+            width: 25%;
+            height: 90%;
+            
+        }
+        .child-cont-t{
+            width: 100%;
+            height: 70%;
+            background-image: url("https://images.unsplash.com/photo-1535223289827-42f1e9919769?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+            background-size: cover;
+        }
+        .child-cont-m{
+            width: 100%;
+            height: 20%;
+            padding: 15px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+          
+           
+        }
+        .h1{
+            color: blue;
+            margin-bottom: 10px;
+           
+        }
+       .child-cont-b{
+            width: 100%;
+            height: 10%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+       }
+       .B1{
+          width: 30%;
+          height: 70%;
+          background-color: white;
+          border: 1px SOLID black;
+          border-radius: 5px;
+       }
+       .B2{
+          width: 30%;
+          height: 70%;
+          background-color: rgb(63, 11, 219);
+          color: white;
+          border-radius: 5px;
+       }
+
+
+
+
+      </style>
+      </head>
+<body>
+
+    <div class="parent-cont">
+        <div class="child-cont-t"></div>
+            <div class="child-cont-m">
+                <h1 class="h1">Advanced Technologies</h1>
+                 <h5>Machinery and equipment developed from 
+                    the application of scientific knowledge.</h5>
+            </div>
+             
+            <div class="child-cont-b">
+                <button class="B1">Learn more</button>
+                <button class="B2">Save Draft</button>
+            </div>
+       
+    </div>
+
+    
+</body>
+</html>
